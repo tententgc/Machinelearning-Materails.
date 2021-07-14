@@ -1,6 +1,7 @@
 import cv2
-def draw_boundary(img,classifier,scaleFactor,minNei):
-
+def draw_boundary(img,classifier,scaleFactor,minNeighbors,color,text):
+    gray =cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    class
 cap = cv2.VideoCapture("BNK.mp4")
 while True:
     ret, frame = cap.read()
