@@ -1,11 +1,16 @@
-from _typeshed import SupportsDivMod
 import cv2
-img = cv2.imread("dale.jpg") 
-
-
+import numpy
+img = cv2.imread("dale.jpg")
+# img =numpy.zeros([400,400,3])
+point = []
+#function clickmouse
 def clickposition(event, x, y, flask, param):
     if event == cv2.EVENT_LBUTTONDOWN:
-        pass
+        cv2.circle(img,(x,y),10,(0,0,255),4)
+        point.append((x,y))
+        if len(point)>=2:
+            cv2.line(img,point[-2],point[-1],(255,255,255),5)
+        cv2.imshow("Output",img)
 
 
 #show img
