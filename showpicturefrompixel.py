@@ -1,6 +1,6 @@
 import cv2
 import numpy
-img = cv2.imread("dale.jpg")
+img = cv2.imread("image/dale.jpg")
 
 
 def clickposition(event, x, y, flask, param):

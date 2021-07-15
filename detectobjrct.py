@@ -1,7 +1,7 @@
 import cv2
 import numpy
 while True:
-    img =cv2.imread("ball2d.jpg")
+    img =cv2.imread("image/ball2d.jpg")
     img = cv2.resize(img,(400,400))
     #ช่วงของสี
     lower= numpy.array([5,111,10])

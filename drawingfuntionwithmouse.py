@@ -1,6 +1,6 @@
 import cv2
 import numpy
-img = cv2.imread("dale.jpg")
+img = cv2.imread("image/dale.jpg")
 # img =numpy.zeros([400,400,3])
 point = []
 #function clickmouse
