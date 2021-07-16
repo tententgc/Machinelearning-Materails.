@@ -2,7 +2,7 @@ import cv2
 
 
 #input video
-cap = cv2.VideoCapture("video/Video.mp4")
+cap = cv2.VideoCapture("video/blackpink.mp4")
 #read classifier
 face_cascade = cv2.CascadeClassifier("detect/haarcascade_frontalface_default.xml")
 eye_cascade = cv2.CascadeClassifier("detect/haarcascade_eye_tree_eyeglasses.xml")

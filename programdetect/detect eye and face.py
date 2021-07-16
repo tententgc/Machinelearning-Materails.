@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("image/girl.jpg")
+img = cv2.imread("image/blackpink.jpg")
 
 # read cascade
 face_cascade = cv2.CascadeClassifier("detect/haarcascade_frontalface_default.xml")
