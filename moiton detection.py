@@ -1,6 +1,6 @@
 #Motion Detection
 import cv2
-cap = cv2.VideoCapture("video/blackpink.mp4")
+cap = cv2.VideoCapture("image/Walking.mp4")
 check, frame1 = cap.read()
 check, frame2 = cap.read()
 while (cap.isOpened()):

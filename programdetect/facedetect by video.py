@@ -12,8 +12,8 @@ while(cap.isOpened()):
          gray_img = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
         #check face 
-         scaleFactor = 1.1 #ตรวจจาก เคสทดสอบ
-         minNeighber = 0 #จำนวนวงที่ตี
+         scaleFactor = 1.2 #ตรวจจาก เคสทดสอบ
+         minNeighber = 3 #จำนวนวงที่ตี
          face_detect = face_cascade.detectMultiScale(gray_img,scaleFactor,minNeighber)
          #show facedetect
          for (x,y,w,h) in face_detect:
